@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Projects -->
+    {% if page.projects %}
+      <h2>
+        <span style="color: inherit">projects</span>
+      </h2>
+      {% include projects.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
