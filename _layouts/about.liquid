@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <p style="color: inherit">selected publications</p>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -67,6 +67,9 @@ layout: default
     <!-- Projects -->
     <!-- pages/projects.md -->
 <div class="projects">
+  <h2>
+    <p style="color: inherit">projects</p>
+  </h2>
   {% if site.enable_project_categories and page.display_categories %}
     <!-- Display categorized projects -->
     {% for category in page.display_categories %}
