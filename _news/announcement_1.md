@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-24 13:30:00+0530
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+📚 Conducted an Expert Talk on 'LLMs and their Applications' at Sardar Patel Institute of Technology.
